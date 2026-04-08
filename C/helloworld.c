@@ -6,7 +6,9 @@ and related and neighboring rights to this software to the public domain
 worldwide. This software is distributed without any warranty.
 
 You should have received a copy of the CC0 Public Domain Dedication along with
-this software. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>. */
+this software. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+Compile with GCC: gcc helloworld.c -o helloworld */
 
 #include <stdio.h> /* Include of the file "stdio.h" (Standard Input/Output).
 This is a standard library in C used to handled input and output operations.
@@ -19,7 +21,7 @@ int main(void) {
 
 	/* Calling the "printf" function that outputs a string passing as an argument on the screen. 
 	Here we are passing the string "Hello, World!" as an argument that will be output on the screen. 
-	The '\n' character tells the "printf" function to print a new line to the output.
+	The '\n' character tells the "printf" function to print a new line on the screen.
 	Here the new line will be in the end of the string. */
    	printf("Hello, World!\n");
    	
