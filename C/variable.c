@@ -10,12 +10,12 @@ this software. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
 Compile with GCC: gcc variable.c -o variable */
 
-#include <stdio.h> /* Include of "stdio.h" (Standard Input/Output C Library). */
+#include <stdio.h> /* Include of "stdio.h" (Standard Input/Output C Library) that is used for calling "printf" function. */
 
 /* The "main()" function, which serves as the entry point of the program. */
 int main(void){
 	
-	/* Create a "int" variable name 'n' that can store a integer number like 6 as example. */
+	/* Create a "int" variable name 'n' that can store a integer number like 98 as example. */
 	int n=98;
 	
 	/* Create a "char" variable name 'c' that can store a single character like 'a' as example. */
@@ -28,7 +28,7 @@ int main(void){
 	/* Using "printf" function for showing a single character with the '%c' trick. */
 	printf("The character stored in the variable c is: %c \n", c);
 	
-	/* Using "printf" function with %c (show me the single character) %d (show me an integer variable) for showing the ASCII code
+	/* Using "printf" function with %c (show me a single character stored in variable) %d (show me an integer variable) for showing the ASCII code
 	 of the value of character stored in 'c' here. So, it show the ASCII code of letter 'a' as example. */
 	printf("The ASCII code of the character '%c' is: %d \n", c, c);
 	
