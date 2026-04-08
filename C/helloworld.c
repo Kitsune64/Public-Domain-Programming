@@ -19,7 +19,7 @@ int main(void) {
 
 	/* Calling the "printf" function that outputs a string passing as an argument on the screen. 
 	Here we are passing the string "Hello, World!" as an argument that will be output on the screen. 
-	The '\n' character tells the "printf" function to print a new line on the screen.
+	The '\n' character tells the "printf" function to print a new line to the output.
 	Here the new line will be in the end of the string. */
    	printf("Hello, World!\n");
    	
