@@ -15,10 +15,10 @@ Compile with GCC: gcc variable.c -o variable */
 /* The "main()" function, which serves as the entry point of the program. */
 int main(void){
 	
-	/* Create a "int" variable name 'n' that can store a integer number like 98 as example. */
+	/* Create an "int" variable named 'n' that can store a integer number like 98 as example. */
 	int n=98;
 	
-	/* Create a "char" variable name 'c' that can store a single character like 'a' as example. */
+	/* Create a "char" variable named 'c' that can store a single character like 'a' as example. */
 	char c='a';
 	
 	/* Here we use the "printf" function with this cheaty trick '%d' and 'n' at end of the string,
