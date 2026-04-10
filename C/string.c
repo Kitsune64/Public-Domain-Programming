@@ -15,9 +15,9 @@ Compile with GCC: gcc string.c -o string */
 /* The "main()" function, which serves as the entry point of the program. */
 int main(void){
 
-	/* Create an array of 5 "char" variables.
-	The array of char is initialised from name_1[0] to name_1[4] here with 'A', 'l', 'e', 'x' characters (Alex).
-	Notice the ending character '\0' for memory security that indicates the end of the sized array. */
+	/* Create an array of 5 "char" (maximum five characters).
+	The array of char is initialised from name_1[0] to name_1[3] here with 'A', 'l', 'e', 'x' characters (Alex).
+	Notice the ending character name_1[4] with '\0' for memory security that indicates the end of the sized array. */
 	char name_1[5]={'A','l','e','x','\0'};
 	
 	/* An other way to create a Array of "char" without definite manually the size of the array here.*/
