@@ -1,4 +1,4 @@
-/* helloworld.c - Hello World in C programming Langage.
+/* helloworld.c - Hello World in C programming Language.
  Written in 2026 by Kitsune64.
 
 To the extent possible under law, the author(s) have dedicated all copyright
