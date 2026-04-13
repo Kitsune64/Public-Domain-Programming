@@ -17,7 +17,7 @@ int main(void){
 	int cpt=4; /* Initialization of an integer variable named "cpt" to 4 */
 	
 	/*Show the value of "cpt" on screen */
-	printf("cpt variable is initialized here to %d at start of the program (before the 'for' loop).\n",cpt);
+	printf("'cpt' variable is initialized here to %d at start of the program (before the 'for' loop).\n",cpt);
 	
 	/* Entering the "for" loop. It initializes "cpt" to 0, once before entering the loop.
 	Condidition to continue the loop: "cpt" must be less than 10 otherwise, "cpt is incremented at the end of each loop. */
@@ -31,3 +31,4 @@ int main(void){
 	/* Return 0 to the system to indicate the program ran and exited. */
 	return 0;
 }
+
